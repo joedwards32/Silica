@@ -2,11 +2,9 @@
 
 # What is Silica?
 
-Silica is a crossover of FPS and RTS, where you take part in epic photorealistic battles either as humans or aliens. Lead as the commander, or join the assault from the ground - the choice is yours! 
+[Silica](https://store.steampowered.com/app/1494420/Silica/) is a crossover of FPS and RTS, where you take part in epic photorealistic battles either as humans or aliens. Lead as the commander, or join the assault from the ground - the choice is yours! 
 
 This Docker image contains the dedicated server for the game.
-
->  [Silica](https://store.steampowered.com/app/1494420/Silica/)
 
 <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1494420/header.jpg?t=1696011820" alt="logo" width="300"/></img>
 
