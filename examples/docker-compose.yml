@@ -1,0 +1,14 @@
+services:
+  silica-server:
+    image: joedwards32/silica
+    container_name: silica
+    environment:
+      - SERVER_NAME=Example
+      - DEBUG=0
+    volumes:
+      - silica:/home/steam/silica-dedicated/  # Persistent data volume mount point inside container
+    ports:
+      - "27015:27015"           # Game Port
+      - "27016:27016"           # Query Port
+volumes:
+  silica:
