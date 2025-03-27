@@ -77,4 +77,5 @@ CMD ["bash", "entry.sh"]
 # Expose ports
 EXPOSE 27015/tcp \
 	27015/udp \
+	27016/tcp \
 	27016/udp
