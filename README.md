@@ -20,7 +20,7 @@ Running using a bind mount for data persistence on container recreation:
 ```console
 $ mkdir -p $(pwd)/silica-data
 $ chown 1000:1000 $(pwd)/silica-data # Makes sure the directory is writeable by the unprivileged container user with uid 1000, known as steam
-$ docker run -d --name=silica -v $(pwd)/cs2-data:/home/steam/silica-dedicated/ -p 27015:27015/tcp -p 27016:27016/tcp joedwards32/silica
+$ docker run -d --name=silica -v $(pwd)/silica-data:/home/steam/silica-dedicated/ -p 27015:27015/tcp -p 27016:27016/tcp joedwards32/silica
 ```
 
 or using docker-compose, see [examples](https://github.com/joedwards32/Silica/blob/main/examples/docker-compose.yml):
@@ -58,7 +58,7 @@ Feel free to overwrite these environment variables, using -e (--env):
 If you want to increase the verbosity of log output set the `DEBUG` environment variable:
 
 ```dockerfile
-DEBUG=0                    (0=none, 1=steamcmd, 2=cs2, 3=all)
+DEBUG=0                    (0=none, 1=steamcmd, 2=silica, 3=all)
 ```
 
 ## Validating Game Files
