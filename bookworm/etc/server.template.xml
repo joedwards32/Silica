@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<NetworkServerSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ServerName="${SERVER_NAME}" CurrentGameMode="${CURRENT_GAME_MODE}" Singleplayer="${SINGLEPLAYER}" PasswordProtected="${PASSWORD_PROTECTED}" ServerPassword="${SERVER_PASSWORD}" GamePort="27015" QueryPort="27016">
+<NetworkServerSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ServerName="${SERVER_NAME}" CurrentGameMode="${CURRENT_GAME_MODE}" Singleplayer="${SINGLEPLAYER}" PasswordProtected="${PASSWORD_PROTECTED}" ServerPassword="${SERVER_PASSWORD}" GamePort="26900" QueryPort="26901">
   <GameModeSettings GameMode="MP_Deathmatch" CurrentMap="${DEATHMATCH_MAP}" MapList="${DEATHMATCH_MAP_LIST}" MaxPlayers="${DEATHMATCH_MAX_PLAYERS}" />
   <GameModeSettings GameMode="MP_Prospector" CurrentMap="${PROSPECTOR_MAP}" MapList="${PROSPECTOR_MAP_LIST}" MaxPlayers="${PROSPECTOR_MAX_PLAYERS}" />
   <GameModeSettings GameMode="MP_Sandbox" CurrentMap="${SANDBOX_MAP}" MapList="${SANDBOX_MAP_LIST}" MaxPlayers="${SANDBOX_MAX_PLAYERS}" />
